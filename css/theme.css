@@ -46,3 +46,11 @@ button:hover {
   color: #8D8DFF;
   cursor: pointer;
 }
+
+.problemDiv {
+  border: 8px solid #8D8DFF;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px 10px;
+}
