@@ -37,6 +37,7 @@ button {
 button:hover {
   background-color: white;
   color: #8D8DFF;
+  cursor: pointer;
 }
 a.button {
     -webkit-appearance: button;
