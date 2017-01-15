@@ -33,4 +33,4 @@ than n then b cannot be a substring of s(n).
 
 Note that the middle 201 characters for s(n) remain constant for
 n>10. As such for values of n greater than 10, we can treat n as
-being equal to 10.
+being equal to 10. 
