@@ -15,10 +15,6 @@ h1, h2, p {
   font-family: "Verdana";
 }
 
-#novspace {
-  line-height: 2px;
-}
-
 .centerDiv {
   margin: auto;
   width: 50%;
