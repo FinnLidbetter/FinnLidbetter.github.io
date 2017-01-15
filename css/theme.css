@@ -73,3 +73,8 @@ button:hover {
     text-align:right;
     width:25%;
 }
+
+#similar { 
+  float:left; 
+  clear:both;
+}
