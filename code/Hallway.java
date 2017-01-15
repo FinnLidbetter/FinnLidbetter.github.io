@@ -1,3 +1,6 @@
+/**
+ * @author Finn Lidbetter
+ */
 import java.util.*;
 import java.io.*;
 import java.awt.geom.*;
@@ -7,10 +10,12 @@ public class Hallway {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     StringBuilder sb = new StringBuilder();
     
+    // The first 10 iterations and their middle 201 characters are all that is needed to work with
     String[] halls = new String[11];
     String[] middles = new String[11];
     halls[1] = "L";
     middles[1] = "L";
+    // Construct the strings
     for (int i=2; i<11; i++) {
       halls[i] = halls[i-1] + "L" + reverseFlip(halls[i-1]);
       int hallLen = halls[i].length();
@@ -28,6 +33,7 @@ public class Hallway {
       }
       int subLen = sub.length();
       boolean good = false;
+      // Look for matches or reverseFlip matches in the middle 201 characters of depths less than n
       for (int j=1; j<n; j++) {
 
         if (subLen<=middles[j].length()) {
@@ -40,6 +46,7 @@ public class Hallway {
           }
         }
       }
+      // Look for matches in the middle 201 characters at depth n
       if (subLen<=middles[n].length()) {
         for (int i=0; i<middles[n].length()-subLen+1; i++) {
           String hallSub = middles[n].substring(i, i+subLen);
