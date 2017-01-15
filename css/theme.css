@@ -6,12 +6,13 @@
  *
  */
 
-div {
-  border: 1px solid black;
-}
 
 body {
     background-color: rgb(204,204,255);
+}
+
+.centerDiv {
+  margin: auto;
 }
 
 #page1 .myDiv {
