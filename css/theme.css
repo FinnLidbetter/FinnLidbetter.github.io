@@ -2,6 +2,10 @@ div {
   border: 1px solid black;
 }
 
+body {
+    background-color: blue;
+}
+
 #page1 .myDiv {
   border: 1px solid green;
   width: 200px;
