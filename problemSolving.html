@@ -98,10 +98,10 @@
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
           console.log("State change, readystate is:");
-          console.log(this.readystate);
+          console.log(this.readyState);
           console.log("status is:");
           console.log(this.status);
-          if (this.readystate == 4 && this.status == 200) {
+          if (this.readyState == 4 && this.status == 200) {
             var x = 0;
             console.log("Here");
             document.body.appendChild(document.createTextNode("XML state change"));
