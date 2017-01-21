@@ -9,7 +9,6 @@
   </categories>
   <summary>Given a recurrence relation that describes an interative process through which a string is constructed, determine if a given string is a substring of the string constructed after n iterations of applying the recurrence relation.</summary>
 </problem>
-        
 <problem>
   <name>Comparing Answers</name>
   <shortFileName>Answers</shortFileName>
