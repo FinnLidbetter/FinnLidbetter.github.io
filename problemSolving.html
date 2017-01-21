@@ -106,7 +106,8 @@
 
         var xmlDoc = xhttp.responseXML;
         var problems = xmlDoc.getElementsByTagName("problem");
-        for (int i=0; i<problems.length; i++) {
+        var i;
+        for (i=0; i<problems.length; i++) {
           var problemName = problems[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
           var shortName = problems[i].getElementsByTagName("shortFileName")[0].childNodes[0].nodeValue;
           var problemId = problems[i].getElementsByTagName("id")[0].childNodes[0].nodeValue;
