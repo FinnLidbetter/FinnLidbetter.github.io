@@ -46,6 +46,15 @@
         document.getElementById("textArea").appendChild(document.createTextNode("Hello World1"));
         myFunction();
       </script>
+
+      <script type="text/javascript">
+        var pDiv = document.createElement("DIV");
+        pDiv.setAttribute("class","problemDiv");
+        var pName = document.createElement("H1");
+        pName.appendChild(document.createTextNode("Name of the problem"));
+        pDiv.appendChild(pName);
+        document.getElementById("textArea").append(pDiv);
+      </script>
       <p>Confirmation that the page has really updated</p>
 
     </div>
