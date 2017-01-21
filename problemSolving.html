@@ -115,6 +115,9 @@
             console.log("Number of problems: ");
             console.log(problems.length);
             console.log(problems[0].childNodes.length);
+            for (i=0; i<problems[0].childNodes.length; i++) {
+              console.log(problems[0].childNodes[i].nodeValue);
+            }
             for (i=0; i<problems.length; i++) {
               var problemName = problems[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
               var shortName = problems[i].getElementsByTagName("shortFileName")[0].childNodes[0].nodeValue;
