@@ -99,11 +99,12 @@
         xhttp.onreadystatechange = function() {
           if (this.readystate == 4 && this.status == 200) {
             var x = 0;
+            document.body.appendChild(document.createTextNode("XML state change"));
           }
         };
         xhttp.open("GET","summaries.xml",true);
         xhttp.send();
-
+/*
         var xmlDoc = xhttp.responseXML;
         var problems = xmlDoc.getElementsByTagName("problem");
         var i,j;
@@ -118,7 +119,7 @@
             categoryStr += categories[j].childNodes[0].nodeValue;   
           }
           var summary = problems[i].getElementsByTagName("summary")[0].childNodes[0].nodeValue;
-          problemInfoGenerator(problemName, shortName, problemId, categoryStr, summary);
+          problemInfoGenerator(problemName, shortName, problemId, categoryStr, summary); */
         }
       </script>
     </div>
