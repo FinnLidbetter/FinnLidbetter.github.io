@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<problem>
-  <name>Decoding the Hallway</name>
-  <shortFileName>Hallway</shortFileName>
-  <id>decodingthehallway</id>
-  <categories>
-    <category>String manipulation</category>
-    <category>Ad hoc</category>
-  </categories>
-  <summary>Given a recurrence relation that describes an interative process through which a string is constructed, determine if a given string is a substring of the string constructed after n iterations of applying the recurrence relation.</summary>
-</problem>
-<problem>
-  <name>Decoding the Hallway</name>
-  <shortFileName>Hallway</shortFileName>
-  <id>decodingthehallway</id>
-  <categories>
-    <category>String manipulation</category>
-    <category>Ad hoc</category>
-  </categories>
-  <summary>Given a recurrence relation that describes an interative process through which a string is constructed, determine if a given string is a substring of the string constructed after n iterations of applying the recurrence relation.</summary>
-</problem>
-<problem>
-  <name>Comparing Answers</name>
-  <shortFileName>Answers</shortFileName>
-  <id>comparinganswers</id>
-  <categories>
-    <category>Graph Theory</category>
-    <category>Matrices</category>
-  </categories>
-  <summary>Given the number of roads of length 1 between each pair of cities, verify a calculation of the number of paths of length 2 between each pair of cities</summary>
-</problem>
-<problem>
-  <name>Divisors</name>
-  <shortFileName>Divisors</shortFileName>
-  <id>divisors</id>
-  <categories>
-    <category>Math</category>
-  </categories>
-  <summary>Given integers n, k, compute the number of divisors of nCk (n Choose k)</summary>
-</problem>
+<allProblems>
+  <problem>
+    <name>Decoding the Hallway</name>
+    <shortFileName>Hallway</shortFileName>
+    <id>decodingthehallway</id>
+    <categories>
+      <category>String manipulation</category>
+      <category>Ad hoc</category>
+    </categories>
+    <summary>Given a recurrence relation that describes an interative process through which a string is constructed, determine if a given string is a substring of the string constructed after n iterations of applying the recurrence relation.</summary>
+  </problem>
+  <problem>
+    <name>Comparing Answers</name>
+    <shortFileName>Answers</shortFileName>
+    <id>comparinganswers</id>
+    <categories>
+      <category>Graph Theory</category>
+      <category>Matrices</category>
+    </categories>
+    <summary>Given the number of roads of length 1 between each pair of cities, verify a calculation of the number of paths of length 2 between each pair of cities</summary>
+  </problem>
+  <problem>
+    <name>Divisors</name>
+    <shortFileName>Divisors</shortFileName>
+    <id>divisors</id>
+    <categories>
+      <category>Math</category>
+    </categories>
+    <summary>Given integers n, k, compute the number of divisors of nCk (n Choose k)</summary>
+  </problem>
+</allProblems>
