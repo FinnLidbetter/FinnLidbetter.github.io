@@ -97,13 +97,16 @@
       <script type="text/javascript">
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
+          console.log("State change");
           if (this.readystate == 4 && this.status == 200) {
             var x = 0;
+            console.log("Here");
             document.body.appendChild(document.createTextNode("XML state change"));
           }
         };
         xhttp.open("GET","summaries.xml",true);
         xhttp.send();
+        console.log("Reached this line");
 /*
         var xmlDoc = xhttp.responseXML;
         var problems = xmlDoc.getElementsByTagName("problem");
