@@ -105,6 +105,7 @@
           if (this.readyState == 4 && this.status == 200) {
             var parser = new DOMParser();
             var xmlDoc = parser.parseFromString(xhttp.responseText,"application/xml");
+            console.log(xhttp.responseText);
             /*var xmlDoc = xhttp.responseXML;*/
             if (xmlDoc==null) {
               console.log("xmlDoc is null");
