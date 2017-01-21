@@ -2,7 +2,7 @@
 <problem>
   <name>Decoding the Hallway</name>
   <shortFileName>Hallway</shortFileName>
-  <idName>decodingthehallway</idName>
+  <id>decodingthehallway</id>
   <categories>
     <category>String manipulation</category>
     <category>Ad hoc</category>
