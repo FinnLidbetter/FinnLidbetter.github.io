@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Template: (9 lines)
+  <problem>
+    <name></name>
+    <shortFileName></shortFileName>
+    <id></id>
+    <categories>
+      <category></category>
+    </categories>
+    <summary></summary>
+  </problem>
+-->
 <allProblems>
+  <problem>
+    <name>Three-State Memory</name>
+    <shortFileName>Memory</shortFileName>
+    <id>memory</id>
+    <categories>
+      <category>Dynamic Programming</category>
+      <category>Combinatorics</category>
+    </categories>
+    <summary>Given a binary representation of a number, compute the number of equivalent represenations using an augmented binary system that allows `2's.</summary>
+  </problem>
   <problem>
     <name>Decoding the Hallway</name>
     <shortFileName>Hallway</shortFileName>
