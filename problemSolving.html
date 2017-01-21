@@ -106,14 +106,14 @@
 
         var xmlDoc = xhttp.responseXML;
         var problems = xmlDoc.getElementsByTagName("problem");
-        var i;
+        var i,j;
         for (i=0; i<problems.length; i++) {
           var problemName = problems[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
           var shortName = problems[i].getElementsByTagName("shortFileName")[0].childNodes[0].nodeValue;
           var problemId = problems[i].getElementsByTagName("id")[0].childNodes[0].nodeValue;
           var categories = problems[i].getElementsByTagName("categories")[0].getElementsByTagName("category");
           var categoryStr = categories[0].childNodes[0].nodeValue;
-          for (int j=1; j<categories.length; j++) {
+          for (j=1; j<categories.length; j++) {
             categoryStr += ", ";
             categoryStr += categories[j].childNodes[0].nodeValue;   
           }
