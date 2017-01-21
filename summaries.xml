@@ -19,3 +19,12 @@
   </categories>
   <summary>Given the number of roads of length 1 between each pair of cities, verify a calculation of the number of paths of length 2 between each pair of cities</summary>
 </problem>
+<problem>
+  <name>Divisors</name>
+  <shortFileName>Divisors</shortFileName>
+  <id>divisors</id>
+  <categories>
+    <category>Math</category>
+  </categories>
+  <summary>Given integers n, k, compute the number of divisors of nCk (n Choose k)</summary>
+</problem>
