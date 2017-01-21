@@ -84,7 +84,12 @@
           linksDiv.appendChild(linksRowDiv);
 
           pDiv.appendChild(linksDiv);
+
+          var lineBreak = document.createElement("P");
+          lineBreak.appendChild(document.createTextNode(""));
+          
           document.getElementById("textArea").appendChild(pDiv); 
+          document.getElementById("textArea").appendChild(lineBreak);
         }
       </script>
 
