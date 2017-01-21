@@ -28,11 +28,12 @@
         <div class="table">
           <div class="tr">
             <div class="d1"><a href="http://open.kattis.com/problems/decodingthehallway">Problem Statement</a></div>
-            <div class="d2"><a href="solutions/hallway.txt">Solution</a></div>
-            <div class="d3"><a href="code/Hallway.java">Source Code</a></div>
+            <div class="d2"><a href="https://github.com/FinnLidbetter/problems-solved/blob/masters/decodingthehallway/hallway.md">Solution</a></div>
+            <div class="d3"><a href="https://github.com/FinnLidbetter/problems-solved/blob/masters/decodingthehallway/Hallway.java">Source Code</a></div>
           </div>
         </div>
       </div>
+
 
       <script type="text/javascript">
         function problemInfoGenerator(problemName, shortName, problemId, categories, summary) {
@@ -86,8 +87,38 @@
           document.getElementById("textArea").appendChild(pDiv); 
         }
       </script>
+
+
       <script>
         problemInfoGenerator("Comparing Answers","Answers","comparinganswers","Graph Theory","Given the number of roads of length 1 between each pair of cities, verify a calculation of the number of paths of length 2 between each pair of cities");
+      </script>
+
+
+      <script type="text/javascript">
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readystate == 4 && this.status == 200) {
+            var x = 0;
+          }
+        };
+        xhttp.open("GET","summaries.xml",true);
+        xhttp.send();
+
+        var xmlDoc = xhttp.responseXML;
+        var problems = xmlDoc.getElementsByTagName("problem");
+        for (int i=0; i<problems.length; i++) {
+          var problemName = problems[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+          var shortName = problems[i].getElementsByTagName("shortFileName")[0].childNodes[0].nodeValue;
+          var problemId = problems[i].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+          var categories = problems[i].getElementsByTagName("categories")[0].getElementsByTagName("category");
+          var categoryStr = categories[0].childNodes[0].nodeValue;
+          for (int j=1; j<categories.length; j++) {
+            categoryStr += ", ";
+            categoryStr += categories[j].childNodes[0].nodeValue;   
+          }
+          var summary = problems[i].getElementsByTagName("summary")[0].childNodes[0].nodeValue);
+          problemInfoGenerator(problemName, shortName, problemId, categoryStr, summary);
+        }
       </script>
     </div>
 
