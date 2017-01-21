@@ -97,7 +97,10 @@
       <script type="text/javascript">
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
-          console.log("State change");
+          console.log("State change, readystate is:");
+          console.log(this.readystate);
+          console.log("status is:");
+          console.log(this.status);
           if (this.readystate == 4 && this.status == 200) {
             var x = 0;
             console.log("Here");
