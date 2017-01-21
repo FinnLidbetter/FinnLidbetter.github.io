@@ -6,14 +6,6 @@
   </head>
   <body>
     
-    <script>
-      function myFunction() {
-        var t = document.createTextNode("Hello World");
-        document.body.appendChild(t);
-      }
-    </script>
-
-
     <h1 class>Page under construction</h1>
     <div class="centerDiv" align="center">
       <h1>Thomas Finn Lidbetter</h1>
@@ -43,11 +35,6 @@
       </div>
 
       <script type="text/javascript">
-        document.getElementById("textArea").appendChild(document.createTextNode("Hello World1"));
-        myFunction();
-      </script>
-
-      <script type="text/javascript">
         function problemInfoGenerator(problemName, shortName, problemId, categories, summary) {
           var pDiv = document.createElement("DIV");
           pDiv.setAttribute("class","problemDiv");
@@ -69,9 +56,9 @@
           var statementDiv = document.createElement("DIV");
           statementDiv.setAttribute("class","d1");
           var solutionDiv = document.createElement("DIV");
-          statementDiv.setAttribute("class","d2");
+          solutionDiv.setAttribute("class","d2");
           var sourceCodeDiv = document.createElement("DIV");
-          statementDiv.setAttribute("class","d3");
+          sourceCodeDiv.setAttribute("class","d3");
           
           var statementLink = document.createElement("A");
           statementLink.setAttribute("href","http://open.kattis.com/problems/"+problemId);
@@ -99,7 +86,6 @@
           document.getElementById("textArea").appendChild(pDiv); 
         }
       </script>
-      <p>Confirmation that the page has really updated</p>
       <script>
         problemInfoGenerator("Comparing Answers","Answers","comparinganswers","Graph Theory","Given the number of roads of length 1 between each pair of cities, verify a calculation of the number of paths of length 2 between each pair of cities");
       </script>
