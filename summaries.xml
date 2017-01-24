@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Assembly Line</name>
+    <shortFileName>Assembly</shortFileName>
+    <id>assemblyline</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>Given multiple sequences of letters and a set of production rules with associated costs for transforming adjacent letters into other letters, find the minimum cost of transofmring the entire sequence into a single letter.</summary>
+  </problem>
+  <problem>
     <name>Three-State Memory</name>
     <shortFileName>Memory</shortFileName>
     <id>memory</id>
@@ -52,12 +61,12 @@ Template: (9 lines)
     <summary>Given integers n, k, compute the number of divisors of nCk (n Choose k)</summary>
   </problem>
   <problem>
-    <name>Assembly Line</name>
-    <shortFileName>Assembly</shortFileName>
-    <id>assemblyline</id>
+    <name>Liga</name>
+    <shortFileName>Liga</shortFileName>
+    <id>liga</id>
     <categories>
       <category>Dynamic Programming</category>
     </categories>
-    <summary>Given multiple sequences of letters and a set of production rules with associated costs for transforming adjacent letters into other letters, find the minimum cost of transofmring the entire sequence into a single letter.</summary>
+    <summary>Given some incomplete information about wins, draws, losses, games played, and points in a football league table, determine the missing values.</summary>
   </problem>
 </allProblems>
