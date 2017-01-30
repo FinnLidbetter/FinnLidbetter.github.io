@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Factors</name>
+    <shortFileName>Factors</shortFileName>
+    <id>factors</id>
+    <categories>
+      <category>Math</category>
+      <category>Combinatorics</category>
+    </categories>
+    <summary>For a given number, n, calculate the smallest value such that the number of distinct permutations of the multiplicands of the value's prime factorisation is n.</summary>
+  </problem>
+  <problem>
     <name>Assembly Line</name>
     <shortFileName>Assembly</shortFileName>
     <id>assemblyline</id>
