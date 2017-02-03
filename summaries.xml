@@ -13,6 +13,24 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Bag of Tiles</name>
+    <shortFileName>Bag</shortFileName>
+    <id>bagoftiles</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>Given a collection of tiles with a number on each, a target value, and a number, n, determine how many ways n of the tiles can sum to the target value.</summary>
+  </problem>
+  <problem>
+    <name>Shuffling Along</name>
+    <shortFileName>Shuffling</shortFileName>
+    <id>shuffling</id>
+    <categories>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>Determine the number of times required to shuffle a deck of n cards to return them to their original order.</summary>
+  </problem>
+  <problem>
     <name>Boastin' Red Socks</name>
     <shortFileName>RedSocks</shortFileName>
     <id>redsocks</id>
