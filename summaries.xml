@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Darts</name>
+    <shortFileName>Darts</shortFileName>
+    <id>darts</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>For a game of darts between 2 players employing different strategies, find the probability that each player will win when they go first from a particular starting score.</summary>
+  </problem>
+  <problem>
     <name>Bag of Tiles</name>
     <shortFileName>Bag</shortFileName>
     <id>bagoftiles</id>
