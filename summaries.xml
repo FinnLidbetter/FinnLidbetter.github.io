@@ -22,6 +22,15 @@ Template: (9 lines)
     <summary>Given a number of boxes each with an amount of energy required to open them and a probability of finding a parrot in that box, find the smallest amount of energy required to find the parrot with at least some given probability.</summary>
   </problem>
   <problem>
+    <name>Chasing the Cheetahs</name>
+    <shortFileName>Cheetahs</shortFileName>
+    <id>cheetahs</id>
+    <categories>
+      <category>Ad Hoc</category>
+    </categories>
+    <summary>Given the start times and speeds of a set of cheetahs running in a straight line, find the smallest distance that occurs between the furthest ahead cheetah and the furthest behind cheetah.</summary>
+  </problem>
+  <problem>
     <name>Coloring</name>
     <shortFileName>Coloring</shortFileName>
     <id>coloring</id>
