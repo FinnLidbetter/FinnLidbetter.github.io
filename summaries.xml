@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Polly Gone</name>
+    <shortFileName>Polly</shortFileName>
+    <id>pollygone</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>Given a number of boxes each with an amount of energy required to open them and a probability of finding a parrot in that box, find the smallest amount of energy required to find the parrot with at least some given probability.</summary>
+  </problem>
+  <problem>
     <name>Frogger</name>
     <shortFileName>Frogger</shortFileName>
     <id>frogger</id>
