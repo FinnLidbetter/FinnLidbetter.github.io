@@ -22,6 +22,16 @@ Template: (9 lines)
     <summary>Given a number of boxes each with an amount of energy required to open them and a probability of finding a parrot in that box, find the smallest amount of energy required to find the parrot with at least some given probability.</summary>
   </problem>
   <problem>
+    <name>Coloring</name>
+    <shortFileName>Coloring</shortFileName>
+    <id>coloring</id>
+    <categories>
+      <category>Graph Theory</category>
+      <category>Complete Search</category>
+    </categories>
+    <summary>Given a graph determine the minimum number of colours required such that all vertices are coloured and no edge has 2 vertices that are the same colour.</summary>
+  </problem>
+  <problem>
     <name>Frogger</name>
     <shortFileName>Frogger</shortFileName>
     <id>frogger</id>
@@ -62,7 +72,8 @@ Template: (9 lines)
     <shortFileName>RedSocks</shortFileName>
     <id>redsocks</id>
     <categories>
-      <category>Math, Complete Search</category>
+      <category>Math</category>
+      <category>Complete Search</category>
     </categories>
     <summary>Given a drawer of an unknown number of socks that are either red or black, and the probability of pulling out a pair of red socks, calculate the number of red and black socks in the drawer.</summary>
   </problem>
