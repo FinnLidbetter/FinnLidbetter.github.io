@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Citadel Construction</name>
+    <shortFileName>Citadel</shortFileName>
+    <id>citadelconstruction</id>
+    <categories>
+      <category>Geometry</category>
+    </categories>
+    <summary>Given a set of up to 1000 points find the set of 4 points that maximises the area of the quadrilateral that they define.</summary>
+  </problem>
+  <problem>
     <name>Polly Gone</name>
     <shortFileName>Polly</shortFileName>
     <id>pollygone</id>
