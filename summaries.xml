@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>A Plus B Problem</name>
+    <shortFileName>Plus</shortFileName>
+    <id>aplusb</id>
+    <categories>
+      <category>Ad Hoc</category>
+      <category>Combinatorics</category>
+    </categories>
+    <summary>Given an array of integers, count the number of ordered triples of distinct indices such that the sum of the 2 numbers at the first 2 indices is equal to the number at the third index.</summary>
+  </problem>
+  <problem>
     <name>Citadel Construction</name>
     <shortFileName>Citadel</shortFileName>
     <id>citadelconstruction</id>
