@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Slikar</name>
+    <shortFileName>Slikar</shortFileName>
+    <id>slikar</id>
+    <categories>
+      <category>Grids</category>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>Given a grid that is being filled up by a flood, determine the shortest path from the starting cell to the ending cell that avoids the flood, if it is possible to find such a path.</summary>
+  </problem>
+  <problem>
     <name>A Plus B Problem</name>
     <shortFileName>Plus</shortFileName>
     <id>aplusb</id>
