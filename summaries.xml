@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Covered Walkway</name>
+    <shortFileName>Covered</shortFileName>
+    <id>coveredwalkway</id>
+    <categories>
+      <category>Ad hoc</category>
+      <category>Sequences</category>
+    </categories>
+    <summary>Given a sequence of up to 1 million points that need to be covered by a set of intervals, each with a cost equal to the square of the size of the interval plus some constant, determine the smallest cost to cover all points.</summary>
+  </problem>
+  <problem>
     <name>Slikar</name>
     <shortFileName>Slikar</shortFileName>
     <id>slikar</id>
