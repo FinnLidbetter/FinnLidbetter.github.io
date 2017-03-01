@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Mixing Colours</name>
+    <shortFileName>Colours</shortFileName>
+    <id>mixingcolours</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>Given an ordered list of tokens that can be any one of many possible colours with some probability and a set of rules through which adjacent tokens can be combined to make tokens of other colours, determine the most probable colour of the token that results after enough rules have been applied to reduce the original list of tokens to a single token.</summary>
+  </problem>
+  <problem>
     <name>Circumsphere</name>
     <shortFileName>Sphere</shortFileName>
     <id>circumsphere</id>
