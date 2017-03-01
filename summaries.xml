@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Crop Triangles</name>
+    <shortFileName>Crop</shortFileName>
+    <id>crophard</id>
+    <categories>
+      <category>Combinatorics</category>
+    </categories>
+    <summary>Given a set of up to 100,000 points with integer coordinates, compute how many distinct triangles can be formed that have a centre at integer coordinates as well.</summary>
+  </problem>
+  <problem>
     <name>Mixing Colours</name>
     <shortFileName>Colours</shortFileName>
     <id>mixingcolours</id>
