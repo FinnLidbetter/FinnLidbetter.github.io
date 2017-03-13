@@ -13,6 +13,24 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Stockbroker</name>
+    <shortFileName>Stock</shortFileName>
+    <id>stockbroker</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>Given the prices of shares on different days, determine the maximum amount of money that can be made by buying and selling shares on different days.</summary>
+  </problem>
+  <problem>
+    <name>Moogle</name>
+    <shortFileName>Moogle</shortFileName>
+    <id>moogle</id>
+    <categories>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>Given some data points, and a formula for calculating the interpolation error, choose a subset of the data points such that the interpolation error for the remaining data points is minimised.</summary>
+  </problem>
+  <problem>
     <name>Crop Triangles</name>
     <shortFileName>Crop</shortFileName>
     <id>crophard</id>
