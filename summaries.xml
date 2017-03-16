@@ -13,7 +13,25 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
-    <name>Stockbroker</name>
+    <name>Taxi Cab Scheme</name>
+    <shortFileName>Taxi</shortFileName>
+    <id>taxicab</id>
+    <categories>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>Given a series of taxi journeys that need to be made at specific times, determine the fewest number of taxi cabs needed to satisfy all journeys without delay.</summary>
+  </problem>
+  <problem>
+    <name>Stock Prices</name>
+    <shortFileName>Stock</shortFileName>
+    <id>stockprices</id>
+    <categories>
+      <category>Ad hoc</category>
+    </categories>
+    <summary>Given a series of bids for stocks and sell offers and a mechanism for establishing deals following bid and sell offers, determine after each bid and sell offer the current asking price for the stock, the current bid price, and the most recent deal price.</summary>
+  </problem>
+  <problem>
+    <name>Daydreaming Stockbroker</name>
     <shortFileName>Stock</shortFileName>
     <id>stockbroker</id>
     <categories>
