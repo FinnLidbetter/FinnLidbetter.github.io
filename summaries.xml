@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Fleecing the Raffle</name>
+    <shortFileName>Raffle</shortFileName>
+    <id>raffle</id>
+    <categories>
+      <category>Combinatorics</category>
+      <category>Probability</category>
+    </categories>
+    <summary>In a raffle in which n people have entered their names and there are p prizes to be won, determine the number of times that you should enter your name to maximise your probability of winning exactly one prize.</summary>
+  </problem>
+  <problem>
     <name>Taxi Cab Scheme</name>
     <shortFileName>Taxi</shortFileName>
     <id>taxicab</id>
