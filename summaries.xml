@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Page Layout</name>
+    <shortFileName>Page</shortFileName>
+    <id>pagelayout</id>
+    <categories>
+      <category>Complete search</category>
+    </categories>
+    <summary>Given a set of up to 20 rectangles, determine the largest area covered by a subset of these rectangles such that no pair of rectangles in the subset overlap.</summary>
+  </problem>
+  <problem>
     <name>Fleecing the Raffle</name>
     <shortFileName>Raffle</shortFileName>
     <id>raffle</id>
