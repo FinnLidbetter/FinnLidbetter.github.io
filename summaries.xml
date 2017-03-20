@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Name that Permutation</name>
+    <shortFileName>Permutation</shortFileName>
+    <id>namethatpermutation</id>
+    <categories>
+      <category>Sequences</category>
+      <category>Math</category>
+    </categories>
+    <summary>Given a number n with 1\ge n\le 50 and a number k with 0\le k\le n!-1 find the kth permutation of the first n positive integers.</summary>
+  </problem>
+  <problem>
     <name>Page Layout</name>
     <shortFileName>Page</shortFileName>
     <id>pagelayout</id>
