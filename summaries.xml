@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Overlapping Maps</name>
+    <shortFileName>Maps</shortFileName>
+    <id>overlappingmaps</id>
+    <categories>
+      <category>Geometry</category>
+    </categories>
+    <summary>Given 2 maps of the same region but scaled to different sizes where the smaller map is rotated, and placed at somelocation on the larger map such that it still lies entirely within the larger map, find the point through both maps that is the exact same location on both maps.</summary>
+  </problem>
+  <problem>
     <name>Name that Permutation</name>
     <shortFileName>Permutation</shortFileName>
     <id>namethatpermutation</id>
