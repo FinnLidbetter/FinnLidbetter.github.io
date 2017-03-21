@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Job Postings</name>
+    <shortFileName>Jobs</shortFileName>
+    <id>jobpostings</id>
+    <categories>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>Given a set of students and a number of available jobs, find an assignment of students to jobs that maximises the total satisfaction of the students</summary>
+  </problem>
+  <problem>
     <name>Overlapping Maps</name>
     <shortFileName>Maps</shortFileName>
     <id>overlappingmaps</id>
