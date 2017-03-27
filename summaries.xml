@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Just a Few More Triangles!</name>
+    <shortFileName>Triangles</shortFileName>
+    <id>moretriangles</id>
+    <categories>
+      <category>Ad hoc</category>
+      <category>Math</category>
+    </categories>
+    <summary>Find the number of triples (a,b,c) where ((a<sup>2</sup>+b<sup>2</sup>)mod n=(c<sup>2</sup>)mod n) and a is less than or equal to b.</summary>
+  </problem>
+  <problem>
     <name>Job Postings</name>
     <shortFileName>Jobs</shortFileName>
     <id>jobpostings</id>
