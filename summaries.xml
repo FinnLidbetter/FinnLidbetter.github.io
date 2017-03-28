@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Dejavu</name>
+    <shortFileName>Dejavu</shortFileName>
+    <id>dejavu</id>
+    <categories>
+      <category>Geometry</category>
+      <category>Ad hoc</category>
+    </categories>
+    <summary>Given a set of points in the plane, count the number of right angled triangles that can be formed where the legs are parallel to the coordinate axes.</summary>
+  </problem>
+  <problem>
     <name>Just a Few More Triangles!</name>
     <shortFileName>Triangles</shortFileName>
     <id>moretriangles</id>
