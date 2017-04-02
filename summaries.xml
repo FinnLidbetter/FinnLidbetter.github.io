@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>S-Nim</name>
+    <shortFileName>Snim</shortFileName>
+    <id>snim</id>
+    <categories>
+      <category>Game</category>
+    </categories>
+    <summary>For a restricted version of Nim, where only certain numbers of beads are allowed to be removed from piles on each turn, determine whether the first player should win or lose.</summary>
+  </problem>
+  <problem>
     <name>Dejavu</name>
     <shortFileName>Dejavu</shortFileName>
     <id>dejavu</id>
