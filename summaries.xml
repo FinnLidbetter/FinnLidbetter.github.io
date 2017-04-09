@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Power Strings</name>
+    <shortFileName>Power</shortFileName>
+    <id>powerstrings</id>
+    <categories>
+      <category>Strings</category>
+    </categories>
+    <summary>Given a string of length up to 2 million characters, determine the shortest prefix of the string such that the prefix concatenated with itself n times (for some n) is equal to the entire string.</summary>
+  </problem>
+  <problem>
     <name>S-Nim</name>
     <shortFileName>Snim</shortFileName>
     <id>snim</id>
