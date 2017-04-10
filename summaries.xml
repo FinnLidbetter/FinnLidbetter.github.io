@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Goat Ropes</name>
+    <shortFileName>Goat</shortFileName>
+    <id>goatropes</id>
+    <categories>
+      <category>Geometry</category>
+    </categories>
+    <summary>Given the locations of up to 50 posts each of which has a single goat tied to it by a length of rope, find the largest sum of possible rope lengths such that no pair of goats can reach one another.</summary>
+  </problem>
+  <problem>
     <name>Symmetry</name>
     <shortFileName>Symmetry</shortFileName>
     <id>symmetry</id>
