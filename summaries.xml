@@ -13,6 +13,25 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Symmetry</name>
+    <shortFileName>Symmetry</shortFileName>
+    <id>symmetry</id>
+    <categories>
+      <category>Geometry</category>
+    </categories>
+    <summary>Given up to 1,000 points find the fewest number of points such that all points are symmetric about a line or a point.</summary>
+  </problem>
+  <problem>
+    <name>Norma</name>
+    <shortFileName>Norma</shortFileName>
+    <id>norma</id>
+    <categories>
+      <category>Data structures</category>
+      <category>Sequences</category>
+    </categories>
+    <summary>Given an array with up to 500,000 entries define the cost of a contiguous subarray to be the product of the subarray's length, its minimum value, and its maximum value. Find the sum of the costs of all subarrays of the original.</summary>
+  </problem>
+  <problem>
     <name>Power Strings</name>
     <shortFileName>Power</shortFileName>
     <id>powerstrings</id>
