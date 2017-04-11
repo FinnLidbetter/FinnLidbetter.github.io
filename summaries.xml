@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Sheldon Numbers</name>
+    <shortFileName>Sheldon</shortFileName>
+    <id>sheldon</id>
+    <categories>
+      <category>Strings</category>
+      <category>Dynamic Programming</category>
+    </categories>
+    <summary>A Sheldon number is a number of the form ABAB...ABA or ABAB...AB where A is a string of n 1's and B is a string of m 0's. When these are interpreted in base 2 determine how many Sheldon numbers exist in a given interval of size up to 2 to the power of 63.</summary>
+  </problem>
+  <problem>
     <name>Goat Ropes</name>
     <shortFileName>Goat</shortFileName>
     <id>goatropes</id>
