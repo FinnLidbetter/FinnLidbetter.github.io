@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Endless Knight</name>
+    <shortFileName>Knight</shortFileName>
+    <id>endlessknight</id>
+    <categories>
+      <category>Grid</category>
+      <category>Combinatorics</category>
+    </categories>
+    <summary>Compute the number of ways that a knight (restricted to 2 types of move) can move from one point to another without stepping on any forbidden locations.</summary>
+  </problem>
+  <problem>
     <name>Sheldon Numbers</name>
     <shortFileName>Sheldon</shortFileName>
     <id>sheldon</id>
