@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Tourists</name>
+    <shortFileName>Tourists</shortFileName>
+    <id>tourists</id>
+    <categories>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>For a tree with the nodes number from 1 to n. Compute the sum of the path lengths between nodes where one node is numbered with a multiple of the other node in the pair</summary>
+  </problem>
+  <problem>
     <name>Endless Knight</name>
     <shortFileName>Knight</shortFileName>
     <id>endlessknight</id>
