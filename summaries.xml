@@ -88,6 +88,54 @@ Template: (9 lines)
     <summary>For a restricted version of Nim, where only certain numbers of beads are allowed to be removed from piles on each turn, determine whether the first player should win or lose.</summary>
   </problem>
   <problem>
+    <name>King of Spades</name>
+    <shortFileName>King</shortFileName>
+    <id>kingofspades</id>
+    <categories>
+      <category>Data Structures</category>
+      <category>Ad hoc</category>
+    </categories>
+    <summary>Pick contiguous sequences of cards from 2 piles such the sequences have equal numbers of each suit and rank and no King of Spades. The score of a pair of sequences is the sum of the card values in the sequences. Find the pair of sequences that maximises the score.</summary>
+  </problem>
+  <problem>
+    <name>Genius</name>
+    <shortFileName>Genius</shortFileName>
+    <id>genius</id>
+    <categories>
+      <category>Probability</category>
+      <category>Dynamic programming</category>
+    </categories>
+    <summary>Given a sequence of predictions of events, determine the probability that at least k of the predictions are correct.</summary>
+  </problem>
+  <problem>
+    <name>Paintings</name>
+    <shortFileName>Paintings</shortFileName>
+    <id>paintings</id>
+    <categories>
+      <category>Backtracking</category>
+    </categories>
+    <summary>Count the number of paintings that do not have any bad pairings of colours adjacent to each other and find the best painting according to an ordering of the colours</summary>
+  </problem>
+  <problem>
+    <name>Thermostat Trouble</name>
+    <shortFileName>Thermostat</shortFileName>
+    <id>thermostat</id>
+    <categories>
+      <category>Ad hoc</category>
+    </categories>
+    <summary>Given a set of alternative temperature measurement units and how they relate to celcius, convert the temperature in one unit to the equivalent temperature in another unit.</summary>
+  </problem>
+  <problem>
+    <name>Muddy Hike</name>
+    <shortFileName>Muddy</shortFileName>
+    <id>muddyhike</id>
+    <categories>
+      <category>Graph Theory</category>
+      <category>Grids</category>
+    </categories>
+    <summary>Given a grid with the depths of the mud at each point in the grid, find a path from the left side of the grid to the right side the grid that minimises the maximum depth of mud crossed.</summary>
+  </problem>
+  <problem>
     <name>Dejavu</name>
     <shortFileName>Dejavu</shortFileName>
     <id>dejavu</id>
