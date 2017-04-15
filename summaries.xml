@@ -162,7 +162,7 @@ Template: (9 lines)
       <category>Ad hoc</category>
       <category>Math</category>
     </categories>
-    <summary>Find the number of triples (a,b,c) where ((a<sup>2</sup>+b<sup>2</sup>)mod n=(c<sup>2</sup>)mod n) and a is less than or equal to b.</summary>
+    <summary>Find the number of triples (a,b,c) where (a*a+b*b)mod n=(c*c)mod n) and a is less than or equal to b.</summary>
   </problem>
   <problem>
     <name>Job Postings</name>
