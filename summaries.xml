@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Destination Unknown</name>
+    <shortFileName>Destination</shortFileName>
+    <id>destinationunknown</id>
+    <categories>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>Given a weighted undirected graph, a start node, a number of possible destinations, and an edge that must be crossed, determine which of the destinations have a shortest path from the start node that also go through the edge that must be crossed.</summary>
+  </problem>
+  <problem>
     <name>Tourists</name>
     <shortFileName>Tourists</shortFileName>
     <id>tourists</id>
