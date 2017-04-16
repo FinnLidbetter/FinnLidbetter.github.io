@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Red/Blue Spanning Tree</name>
+    <shortFileName>RedBlue</shortFileName>
+    <id>redbluetree</id>
+    <categories>
+      <category>Graph Theory</category>
+    </categories>
+    <summary>Given a set of edges in a graph where each edge is coloured red or blue, determine if it is possible to construct a spanning tree using exactly k blue edges.</summary>
+  </problem>
+  <problem>
     <name>Base-2 Palindromes</name>
     <shortFileName>Palindrome2</shortFileName>
     <id>base2palindrome</id>
