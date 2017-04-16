@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Base-2 Palindromes</name>
+    <shortFileName>Palindrome2</shortFileName>
+    <id>base2palindrome</id>
+    <categories>
+      <category>Ad hoc</category>
+    </categories>
+    <summary>Find the mth base 2 palindrome and print it in base 10</summary>
+  </problem>
+  <problem>
     <name>Destination Unknown</name>
     <shortFileName>Destination</shortFileName>
     <id>destinationunknown</id>
