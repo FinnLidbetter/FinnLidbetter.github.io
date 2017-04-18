@@ -13,6 +13,16 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Firefly</name>
+    <shortFileName>Firefly</shortFileName>
+    <id>firefly</id>
+    <categories>
+      <category>Ad hoc</category>
+      <category>Data Structures</category>
+    </categories>
+    <summary>Given an alternating sequence of stalagmites and stalagtites of various heights protruding from the ceiling of a cave, determine the number of stalagtites/stalagmites at a height with the minimum number stalagtites/stalagmites and the number of integer heights that have this minimum.</summary>
+  </problem>
+  <problem>
     <name>Pieces of Parentheses</name>
     <shortFileName>Parentheses</shortFileName>
     <id>piecesofparentheses</id>
