@@ -13,6 +13,15 @@ Template: (9 lines)
 -->
 <allProblems>
   <problem>
+    <name>Stars in a Can</name>
+    <shortFileName>StarsInACan</shortFileName>
+    <id>starsinacan</id>
+    <categories>
+      <category>Geometry</category>
+    </categories>
+    <summary>Given 1,000 3-dimensional points, find the volume of the smallest cylinder containing all points where 3 points lie in one of the bases of the cylinder.</summary>
+  </problem>
+  <problem>
     <name>Firefly</name>
     <shortFileName>Firefly</shortFileName>
     <id>firefly</id>
