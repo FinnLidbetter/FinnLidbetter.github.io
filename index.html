@@ -1,51 +1,107 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>About me</title>
-    <link rel='stylesheet' type='text/css' href='css/theme.css'/>
-  </head>
-  <body>
-    <div class="centerDiv" align="center">
-      <h1>Thomas Finn Lidbetter</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About me — Thomas Finn Lidbetter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Thomas Finn Lidbetter</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a class="btn active" href="index.html" aria-current="page">About me</a>
+        <a class="btn" href="rerack.html">ReRack</a>
+        <a class="btn" href="crifx.html">Crifx</a>
+      </nav>
+      <div class="social" aria-hidden="false">
+        <a class="icon-link" href="https://github.com/FinnLidbetter" target="_blank" rel="noopener noreferrer" aria-label="GitHub — opens in new tab">
+          <img class="icon-svg" src="github-mark.svg" alt="GitHub logo" />
+        </a>
+        <a class="icon-link" href="https://www.linkedin.com/in/finn-lidbetter/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn — opens in new tab">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+            <path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.7 3.6-1.7 3.8 0 4.5 2.5 4.5 5.8V21H17v-5.2c0-1.2 0-2.8-1.7-2.8-1.7 0-1.9 1.3-1.9 2.7V21H9z"/>
+          </svg>
+        </a>
+      </div>
     </div>
-    <div class="centerDiv" align="center">
-      <button onclick="location.href='index.html'" type="button">About me</button>
-      <button onclick="location.href='cvPage.html'" type="button">CV</button>
-      <button onclick="location.href='rerack.html'" type="button">ReRack</button>
-    </div>
-    <div class="centerDiv">
+  </header>
+
+  <main class="container">
+    <article class="card intro">
       <h2>About me</h2>
-      <p>I am a mathematics and computer science enthusiast currently working on the Algorithms and Optimization team at <a href="https://www.rideco.com">RideCo</a>, a Sofware as a Service company providing dynamic transit ridesharing solutions. In 2017 I graduated from Mount Allison University in Sackville New Brunswick with a Bachelor's degree in Mathematics and Computer Science and a minor in Philosophy. I went on to complete a Master's of Mathematics in Computer Science at the University of Waterloo, and completed my thesis and my degree in December 2018.</p>
+      <p>
+        Hello, my name is Finn! I am a mathematics and computer science enthusiast currently working as a Senior Software Engineer on the Algorithms and Optimization team at
+        <a href="https://www.rideco.com">RideCo</a>.
+        I completed a bachelor's degree in Mathematics and Computer Science with a minor in Philosophy at Mount Allison University in 2017, and a Master's of Mathematics in Computer Science at the University of Waterloo in 2018.
+      </p>
+    </article>
+
+    <section class="card">
       <h3>Publications</h3>
-      <ul>
-        <li><a href="https://www.sciencedirect.com/science/article/pii/S0012365X23004041">Improved Bound for the Gerver-Ramsey Collinearity Problem</a> (Lidbetter)</li>
-        <li><a href="https://arxiv.org/abs/2002.02731">Computational Aspects of Sturdy and Flimsy Numbers</a> (Clokie, Lidbetter, Lovett, Shallit, Witzman)</li>
-        <li><a href="https://uwspace.uwaterloo.ca/handle/10012/14254">Counting, Adding, and Regular Languages</a> (Lidbetter---Master's Thesis)</li>
-        <li><a href="https://link.springer.com/chapter/10.1007/978-3-319-98654-8_10">Additive Number Theory via Approximation by Regular Languages</a> (Bell, Lidbetter, Shallit)</li>
-        <li><a href="https://link.springer.com/chapter/10.1007/978-3-319-98654-8_19">Counting Subwords and Regular Languages</a> (Colbourn, Dougherty, Lidbetter, Shallit)</li>
-        <li><a href="https://www.aaai.org/ocs/index.php/SSS/SSS18/paper/view/17529">Towards Provably Moral AI Agents in Bottom-up Learning Frameworks</a> (Shaw, Orr, St&#246;ckel, Lidbetter, Cohen)</li>
-        <li><a href="https://dmtcs.episciences.org/4214/pdf">A Variation on Chip-Firing: the diffusion game</a> (Duffy, Lidbetter, Messinger, Nowakowski)</li>
+      <ul class="links-list">
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S0012365X23004041">Improved Bound for the Gerver-Ramsey Collinearity Problem</a> (2024; Lidbetter)</li>
+        <li><a href="https://arxiv.org/abs/2002.02731">Computational Aspects of Sturdy and Flimsy Numbers</a> (2020; Clokie, Lidbetter, Lovett, Shallit, Witzman)</li>
+        <li><a href="https://uwspace.uwaterloo.ca/handle/10012/14254">Counting, Adding, and Regular Languages</a> (2018; Lidbetter---Master's Thesis)</li>
+        <li><a href="https://link.springer.com/chapter/10.1007/978-3-319-98654-8_10">Additive Number Theory via Approximation by Regular Languages</a> (2018; Bell, Lidbetter, Shallit)</li>
+        <li><a href="https://link.springer.com/chapter/10.1007/978-3-319-98654-8_19">Counting Subwords and Regular Languages</a> (2018; Colbourn, Dougherty, Lidbetter, Shallit)</li>
+        <li><a href="https://www.aaai.org/ocs/index.php/SSS/SSS18/paper/view/17529">Towards Provably Moral AI Agents in Bottom-up Learning Frameworks</a> (2018; Shaw, Orr, St&#246;ckel, Lidbetter, Cohen)</li>
+        <li><a href="https://dmtcs.episciences.org/4214/pdf">A Variation on Chip-Firing: the diffusion game</a> (2017; Duffy, Lidbetter, Messinger, Nowakowski)</li>
       </ul>
+    </section>
+
+    <section class="card">
       <h3>Patents</h3>
-      <ul>
-          <li><a href="https://patents.justia.com/patent/11429910">11429910: Dynamic scheduling of driver breaks in a ride-sharing service</a> (Lidbetter, Bailey, Goes, Gururajan, Sivakumar)</li>
+      <ul class="links-list">
+        <li><a href="https://patents.justia.com/patent/11429910">11429910: Dynamic scheduling of driver breaks in a ride-sharing service</a> (2021; Lidbetter, Bailey, Goes, Gururajan, Sivakumar)</li>
       </ul>
+    </section>
+
+    <section class="card">
       <h3>Hobbies</h3>
       <p>I enjoy a wide range of hobbies including playing piano, curling and skiing in the winter, rock climbing, woodworking, and competitive programming.</p>
-      <ul>
-        <li>Some piano recordings that I hope to update and add to some day soon: <a href="https://www.youtube.com/channel/UC35p0l-zWZ5N0uYtD0zbbpg">youtube.com/finnlidbetter</a></li>
-        <li>Handtool woodworking projects: <a href="PenroseTiling.jpg">Penrose Tiling</a> (technically it is a quasicrystal and not a Penrose tiling as I broke the matching rules in a few places), TV Cabinet with Ulam Spiral doors <a href="tv_cabinet_doors_left.jpg">Image 1</a> <a href="tv_cabinet_doors_right.jpg">Image 2</a>, <a href="BedsideTable.jpg">bedside table</a>.</li>
+      <ul class="links-list">
+        <li>Some piano recordings: <a href="https://www.youtube.com/channel/UC35p0l-zWZ5N0uYtD0zbbpg">youtube.com/finnlidbetter</a></li>
+        <li>Handtool woodworking projects: <a href="PenroseTiling.jpg">Penrose Tiling</a>, TV Cabinet with Ulam Spiral doors <a href="tv_cabinet_doors_left.jpg">Image 1</a> <a href="tv_cabinet_doors_right.jpg">Image 2</a>, <a href="BedsideTable.jpg">bedside table</a>.</li>
         <li>Other crafty project: <a href="HilbertCurveBanner.jpg">Hilbert Curve Banner</a>.</li>
       </ul>
+    </section>
+
+    <section class="card">
       <h3>Competitive Programming</h3>
-      <p>I have been volunteering my time as a judge for several ICPC and ICPC-style contests since 2018. I write sample solutions to programming challenges (a.k.a., problems), contribute test data to problems, and provide feedback on wording. I have contributed several problems of my own. A list of the problems that I have authored can be found here: <a href="https://open.kattis.com/problem-authors/Finn%20Lidbetter">https://open.kattis.com/problem-authors/Finn%20Lidbetter</a>.</p>
-      <p>I have helped prepare the Atlantic Canadian Preliminary Contest, the <a href="https://mapscontest.com">Mount Allison Programming Showdown (MAPS)</a>, the Northeast North America ICPC contetest, The North American Divisional Contest, and the North American Championship. I have worked as the chief judge for the Northeast North America ICPC region since 2020.</p>
+      <p>
+        I have been volunteering my time as a judge for several <a href="https://icpc.global/regionals/abouticpc">ICPC</a> and ICPC-style contests since 2018. I write sample solutions to problems, contribute test data for problems, and provide feedback on wording. Since 2021, I have been the Chief Judge for the Northeast North America ICPC region.
+        A list of problems I have authored can be found here:
+        <a href="https://open.kattis.com/problem-authors/Finn%20Lidbetter">https://open.kattis.com/problem-authors/Finn%20Lidbetter</a>.
+      </p>
+      <p>
+        Other contests that I have contributed to as a problem author or judge include:
+        <ul>
+          <li>The <a href="https://mapscontest.com">Mount Allison Programming Showdown (MAPS)</a></li>
+          <li>The Atlantic Canadian Preliminary Contest</li>
+          <li>The North American Championship</li>
+        </ul>
+      </p>
+    </section>
+
+    <section class="card">
       <h3>Bragging rights</h3>
       <ul>
         <li>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erdo&#779;s number</a> is 2 via <a href="https://link.springer.com/chapter/10.1007/978-3-319-98654-8_10">Additive Number Theory via Approximation by Regular Languages</a> (Bell, Lidbetter, Shallit) and <a href="http://archive.numdam.org/item/JTNB_1991__3_1_43_0/">New Bounds on the Length of Finite Pierce and Engel Series</a> (Erdo&#779;s, Shallit). Or alternatively via <a href="https://link.springer.com/chapter/10.1007/978-3-319-98654-8_19">Counting Subwords and Regular Languages</a> (Colbourn, Dougherty, Lidbetter, Shallit) and <a href="https://www.emis.de/classics/Erdos/cit/62205042.htm">A Conjecture on Dominating Cycles</a> (Clark, Colbourn, Erdo&#779;s).</li>
         <li>I participated in the 2017 ICPC World Finals, in Rapid City, South Dakota, USA, as a member of the Mount Allison University ICPC team. To qualify for this competition we beat Harvard University (<a href="NENA_scoreboard.png">scoreboard</a>). For reference, Mount Allison University had only 6 computer science major graduates in 2017, three of which were <a href="WorldFinalsTeam.jpg">me and my two ICPC teammates</a>.</li>
-        <li>I scored 28/120 in the 2016 Putnam Contest. This placed me in the 88th percentile of participants that year, a collection of north american students that all enjoy mathematics enough to decide to participate in the contest. The median score in 2016 was 1/120.</li>
+        <li>I scored 28/120 in the 2016 Putnam Contest. This placed me in the 88th percentile of participants that year, where the participants are a collection of north american students that all enjoy mathematics enough to opt into a 6-hour math contest on a Saturday. The median score in 2016 was 1/120.</li>
       </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Thomas Finn Lidbetter</p>
     </div>
-  </body>
+  </footer>
+</body>
 </html>
